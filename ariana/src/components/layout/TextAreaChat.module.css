@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    margin-bottom: 15px;
+
+}
+
+.textarea_container {
+    display: flex;
+    width: 80%;
+    background-color: #efefef;
+    border: 1px solid #229382;
+    border-radius: 10px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+.textarea {
+    width: 80%;
+    height: 60px;
+    padding: 10px; 
+    background-color: #efefef;
+    border: 1px solid #229382;
+    border-radius: 10px;
+    box-sizing: border-box; 
+    resize: none; 
+    outline: none;
+    justify-content: flex-start; 
+}
+
+.button {
+    height: 40px;
+    width: 40px;
+    padding: 0 10px;
+    border: none;   
+    border-radius: 50%;
+    background-color: #229382;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    margin-left: 5px;
+    font-size: 1.5em;
+    margin-left: -1px;
+}
+
+.button:hover {
+    background-color: #ffbb33;
+}
+

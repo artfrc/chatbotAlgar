@@ -11,13 +11,16 @@ function Navbar () {
                     <img src={logo} alt="Ariana"  className={styles.logo}/>
                 </Link>
                 <ul className={styles.list}>
+                    
                     <li className={styles.item}>
-                        <Link to = "/" >Home</Link>
+                        <a 
+                        href="https://loja.algartelecom.com.br/para-voce/internet/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Voltar ao site
+                        </a>
                     </li>
-
-                    <li className={styles.item}>
-                        <Link to = "/site">Site</Link>
-                    </li>
+                   
                 </ul>
             </Container>
         </nav>        
