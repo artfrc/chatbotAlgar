@@ -4,6 +4,7 @@ import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import './index.css';
 import TextAreaChat from './components/layout/TextAreaChat';
+import TextAreaReadOnly from './components/layout/TextAreaReadOnly';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path="/site" element={<Site />} />
           </Routes>
+        <TextAreaReadOnly />
         <TextAreaChat />
         </div>
         <Footer />
