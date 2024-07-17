@@ -1,5 +1,4 @@
 import styles from './TextAreaChat.module.css'
-
 import { FaMicrophone, FaPaperPlane } from 'react-icons/fa';
 
 function TextAreaChat() {

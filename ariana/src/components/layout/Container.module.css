@@ -4,10 +4,11 @@
     justify-content: space-between;
     margin: 0 auto;
     flex-wrap: wrap;
+    padding: 0;
 }
 
 .min-height {
-    min-height: 75%;
+    min-height: 75%;                             
 }
 .start {
     justify-content: flex-start;
