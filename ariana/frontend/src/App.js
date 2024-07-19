@@ -12,7 +12,7 @@ function App() {
       <div id="root">                                           
         <Navbar />
         <div className="container">
-        <TextAreaReadOnly />
+        <TextAreaReadOnly message={"Olá! Eu sou Ariana, sou sua assistente virtual. "}/>
         <TextAreaChat />
         </div>
         <Footer />

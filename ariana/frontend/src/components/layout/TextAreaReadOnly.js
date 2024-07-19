@@ -1,10 +1,18 @@
 import styles from './TextAreaReadOnly.module.css'
+import { useState } from 'react';
 
-function TextAreaReadOnly() {
+function TextAreaReadOnly({ message }) {
+    const [messages, setMessages] = useState([])
+
     return (
         <div className={styles.container}>
             <div className={styles.inputWrapper}>
-                <input type="text" className={styles.inputArea} readOnly/>
+                <textarea 
+                    type="text" 
+                    className={styles.inputArea} 
+                    readOnly
+                    value={message}
+                />
             </div>
         </div>
     )
