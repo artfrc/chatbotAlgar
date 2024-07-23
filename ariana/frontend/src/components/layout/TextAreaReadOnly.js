@@ -1,5 +1,4 @@
 import styles from './TextAreaReadOnly.module.css'
-import { useState } from 'react';
 
 function TextAreaReadOnly({ message }) {
 
@@ -10,7 +9,7 @@ function TextAreaReadOnly({ message }) {
                     type="text" 
                     className={styles.inputArea} 
                     readOnly
-                    value={message.join('\n')}
+                    value={message.join("\n\n")}
                 />
             </div>
         </div>
