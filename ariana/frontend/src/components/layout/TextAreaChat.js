@@ -22,8 +22,7 @@
                 });
                         const jsonData = await response.json();
                 console.log(jsonData);
-                onMessageChange(jsonData.message); // Pass the full response for further processing if needed
-                // Update the input with the API response message
+                onMessageChange(jsonData.message); 
                 setInput('');
               } catch (error) {
                 console.error("Error fetching data:", error);
